@@ -3,6 +3,8 @@
 <head>
 	<title>详情页</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -16,16 +18,18 @@
 <div class="i_container">
 	<div class="i_content">
 		<img class="logo" src="img/logo.png">
+		<img class="i_bg" src="img/bg.png">
 		<div class="ztxt">
 			<h1 class="big_title">欢迎来到<br/>科技与艺术的世界！</h1>
 			<p class="desc1">这里是 OBSBOT，携AI自导演摄相机<br/>向大家问好！</p>
 			<p class="desc2">现在起<br/>做自己的领导</p>
 		</div>
 
-		<div class="i_login">
+		<div class="i_login clearfix">
 			<div class="side_left">
 				<p class="caption">第一时间见证<br/>与体验超酷的黑科技！</p>
-				<div class="share_list">
+				<p class="caption_mobile">第一时间见证与体验<br/>超酷的黑科技！</p>
+				<div class="share_list clearfix">
 					<a class="share_item" href="javascript:void(0);">
 						<img class="icon" src="img/wx.png">
 						<p class="label">微信公众号</p>
@@ -48,13 +52,13 @@
 						</div>
 					</a>
 				</div>
+				<p class="email">更多信息，请联系<br/>E-mail:&nbsp;hello@remo-ai.com</p>
 			</div>
 			<div class="side_right">
 				<h2 class="caption">订阅 OBSBOT 的最新消息及重大新闻</h2>
 				<form class="input_form">
 					<input class="input_item" type="text" name="email" placeholder="电子邮箱*">
 					<input class="input_item" type="text" name="phone" placeholder="手机号码（选填）">
-					
 					<p class="radio_input">我有意预定 OBSBOT 寻影</p>
 					<a  class="submit" href="javascript:void(0);">订&nbsp;&nbsp;&nbsp;&nbsp;阅</a>
 				</form>
@@ -68,6 +72,7 @@
 </div>
 </body>
 <script src="js/jquery.js"></script>
+<script src="js/fontsize.js"></script>
 <script>
 	$(".i_login .side_right .radio_input").click(function(){
 		$(this).toggleClass("check");
