@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ch-EN">
+<head>
+	<title>详情页</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="author,email address">
+	<meta name="robots" content="index">
+	<meta name="renderer" content="ie-stand">
+
+	<link rel="stylesheet" href="css/i_index.css">
+</head>
+<body>
+<div class="i_container">
+	<div class="i_content">
+		<img class="logo" src="img/logo.png">
+		<div class="ztxt">
+			<h1 class="big_title">欢迎来到<br/>科技与艺术的世界！</h1>
+			<p class="desc1">这里是 OBSBOT，携AI自导演摄相机<br/>向大家问好！</p>
+			<p class="desc2">现在起<br/>做自己的领导</p>
+		</div>
+
+		<div class="i_login">
+			<div class="side_left">
+				<p class="caption">第一时间见证<br/>与体验超酷的黑科技！</p>
+				<div class="share_list">
+					<a class="share_item" href="javascript:void(0);">
+						<img class="icon" src="img/wx.png">
+						<p class="label">微信公众号</p>
+						<div class="code">
+							<img src="img/code.png">
+						</div>
+					</a>
+					<a class="share_item" href="javascript:void(0);">
+						<img class="icon" src="img/wb.gif">
+						<p class="label">新浪微博</p>
+						<div class="code">
+							<img src="img/code.png">
+						</div>
+					</a>
+					<a class="share_item" href="javascript:void(0);">
+						<img class="icon" src="img/dy.gif">
+						<p class="label">抖音</p>
+						<div class="code">
+							<img src="img/code.png">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="side_right">
+				<h2 class="caption">订阅 OBSBOT 的最新消息及重大新闻</h2>
+				<form class="input_form">
+					<input class="input_item" type="text" name="email" placeholder="电子邮箱*">
+					<input class="input_item" type="text" name="phone" placeholder="手机号码（选填）">
+					
+					<p class="radio_input">我有意预定 OBSBOT 寻影</p>
+					<a  class="submit" href="javascript:void(0);">订&nbsp;&nbsp;&nbsp;&nbsp;阅</a>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="i_footer">
+		<p>©2017 Remo 2016 - 2017. All Rights Reserved. 粤ICP备17082716号-1</p>
+	</div>
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script>
+	$(".i_login .side_right .radio_input").click(function(){
+		$(this).toggleClass("check");
+	});
+</script>
+</html>
