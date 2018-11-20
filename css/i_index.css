@@ -155,6 +155,7 @@ body{
 	border-right: none;
 	border-bottom: 1px solid #363636;
 	outline: none;
+	color: #fff;
 }
 .i_login .side_right .radio_input{
 	margin-top: 20px;
